@@ -6,9 +6,6 @@
     <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates,
-		Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
-    />
     <!-- /meta tags -->
     <!-- custom style sheet -->
     <link href="web/css/style.css" rel="stylesheet" type="text/css" />
@@ -44,10 +41,6 @@
                     <input type="password" class="form-control" name="pwd" placeholder="Password" required="required" />
                 </div>
             </div>
-            <!--<div class="forgot">
-                <a href="#">Forgot Password?</a>
-                <p><input type="checkbox">Remember Me</p>
-            </div>-->
             <button type="submit" name="login-submit">Login</button>
         </form>
           <p class=" w3l-register-p">Login as<a href="login-hostel_manager.php" class="register"> Hostel-Manager/Admin</a></p>

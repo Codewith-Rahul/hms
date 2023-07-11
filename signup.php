@@ -71,15 +71,6 @@
                     <input type="text" class="form-control" name="year_of_study" placeholder="Year of Study" required="required" />
                 </div>
             </div>
-
-          <!--  <div class=" w3l-form-group">
-                <label>Email:</label>
-                <div class="group">
-                    <i class="fas fa-envelope"></i>
-                    <input type="text" class="form-control" name="mail" placeholder="Email" required="required" />
-                </div>
-            </div>-->
-
             <div class=" w3l-form-group">
                 <label>Password:</label>
                 <div class="group">
@@ -95,10 +86,6 @@
                     <input type="password" class="form-control" name="confirmpwd" placeholder="Confirm Password" required="required" />
                 </div>
             </div>
-            <!--<div class="forgot">
-                <a href="#">Forgot Password?</a>
-                <p><input type="checkbox">Remember Me</p>
-            </div>-->
             <button type="submit" name="signup-submit">Sign Up</button>
         </form>
         <p class=" w3l-register-p">Already a member?<a href="index.php" class="register"> Login</a></p>

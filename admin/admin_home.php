@@ -1,5 +1,4 @@
 <?php
-
  require '../includes/config.inc.php';
 ?>
 <!DOCTYPE html>
@@ -67,9 +66,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="students.php">Students</a>
 					</li>
-					<!-- <li class="nav-item">
-						<a class="nav-link" href="admin_contact.php">Contact</a>
-					</li> -->
+				
 					<li class="dropdown nav-item">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><?php echo $_SESSION['username']; ?>
 							<b class="caret"></b>
@@ -168,25 +165,6 @@
 	</div>
 <!-- //banner -->
 
-<!-- about -->
-
-<!-- //about -->
-
-<!-- why choose us -->
-
-<!-- team -->
-
-<!-- //team -->
-
-<!-- Clients -->
-
-<!--// Clients -->
-
-<!-- latest news -->
-
-<!-- //latest news -->
-
-<!-- footer -->
 <footer class="py-5">
 	<div class="container py-md-5">
 		<div class="footer-logo mb-5 text-center">
@@ -258,15 +236,7 @@
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
-
+		
 			$().UItoTop({ easingType: 'easeOutQuart' });
 
 			});

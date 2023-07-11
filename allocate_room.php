@@ -11,8 +11,6 @@
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta name="keywords" content="Intrend Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -126,7 +124,7 @@
 <?php
    if (isset($_POST['search'])) {
    	   $search_box = $_POST['search_box'];
-   	   /*echo "<script type='text/javascript'>alert('<?php echo $search_box; ?>')</script>";*/
+   	   echo "<script type='text/javascript'>alert('<?php echo $search_box; ?>')</script>";
    	   $hostel_id = $_SESSION['hostel_id'];
    	   $query_search = "SELECT * FROM Application WHERE Student_id like '$search_box%' and Hostel_id = '$hostel_id' and Application_status = '1'";
    	   $result_search = mysqli_query($conn,$query_search);

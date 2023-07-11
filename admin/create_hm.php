@@ -7,8 +7,6 @@
 <title>User Profile</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Consultancy Profile Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- js -->
@@ -76,9 +74,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li class="nav-item">
 							<a class="nav-link" href="students.php">Students</a>
 						</li>
-						<!-- <li class="nav-item">
-							<a class="nav-link" href="admin_contact.php">Contact</a>
-						</li> -->
 						<li class="dropdown nav-item">
 								<li>
 									<a href="../includes/logout.inc.php" class="nav-link">Logout</a>
@@ -110,39 +105,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div id="wrapper" class="w3ls_wrapper w3layouts_wrapper">
 			<div id="steps" style="margin:0 auto;" class="agileits w3_steps">
 				<form id="formElem" name="formElem" action="../includes/hm_signup.php" method="post" class="w3_form w3l_form_fancy">
-				<!--	<fieldset class="step agileinfo w3ls_fancy_step">
-						<legend>Personal Info</legend>
-						<div class="abt-agile">
-							<div class="abt-agile-left">
-							</div>
-							<div class="abt-agile-right">
-
-								<h3><?php echo $_SESSION['fname']." ".$_SESSION['lname']; ?></h3>
-								<h5>Admin</h5>
-								<ul class="address">
-									<li>
-										<ul class="address-text">
-											<li><b>Username </b></li>
-											<li>: <?php echo $_SESSION['username']; ?></li>
-										</ul>
-									</li>
-									<li>
-										<ul class="address-text">
-											<li><b>PHONE </b></li>
-											<li>: <?php echo $_SESSION['mob_no']; ?></li>
-										</ul>
-									</li>
-									<li>
-										<ul class="address-text">
-											<li><b>Email </b></li>
-											<li>: <?php echo $_SESSION['email']; ?></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-								<div class="clear"></div>
-						</div>
-				</fieldset>-->
+				
         <fieldset class="step w3_agileits">
           <legend>Appoint Hostel Manager</legend>
             <div class="agilecontactw3ls-grid">

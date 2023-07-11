@@ -40,7 +40,7 @@ if (isset($_POST['hm_signup_submit'])) {
         exit();
       }
       else {
-        //  $sql = "INSERT INTO Hostel_Manager (Student_id, Fname, Lname, Mob_no, Dept, Year_of_study, Pwd) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        //$sql = "INSERT INTO Hostel_Manager (Student_id, Fname, Lname, Mob_no, Dept, Year_of_study, Pwd) VALUES (?, ?, ?, ?, ?, ?, ?)";
         //$sql = "INSERT INTO Hostel_Manager (Username, Fname, Lname, Mob_no, Hostel_id, Email, Pwd, Isadmin) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         $stmt = mysqli_stmt_init($conn);
 

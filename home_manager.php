@@ -9,8 +9,6 @@
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta name="keywords" content="Intrend Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -184,25 +182,7 @@
 	</div>
 <!-- //banner -->
 
-<!-- about -->
 
-<!-- //about -->
-
-<!-- why choose us -->
-
-<!-- //why choose us -->
-
-<!-- team -->
-
-<!-- //team -->
-
-<!-- Clients -->
-
-<!--// Clients -->
-
-<!-- latest news -->
-
-<!-- //latest news -->
 
 <!-- footer -->
 <footer class="py-5">
